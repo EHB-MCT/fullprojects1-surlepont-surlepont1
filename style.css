@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: lightgrey;
+}
+.colors1 {
+    display: flex;
+}
+.squarered {
+    height: 100px;
+    width: 100px;
+    background-color: #e95959;
+    margin-left: 15px;
+}
+.squareblue {
+    height: 100px;
+    width: 100px;
+    background-color: #32a0c4;
+    margin-left: 20px;
+}
+.squareyellow {
+    height: 100px;
+    width: 100px;
+    background-color: #e7c85b;
+    margin-left: 20px;
+}
+.colors1 h2 {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.code1 {
+    display: flex;
+}
+.code1 h3 {
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.colors2 {
+    display: flex;
+}
+.squaremagenta {
+    height: 100px;
+    width: 100px;
+    background-color: #da35c0;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.squaregreen {
+    height: 100px;
+    width: 100px;
+    background-color: #75d279;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.colors2 h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.code2 {
+    display: flex;
+}
+.code2 h3 {
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.typo1 {
+    display: flex;
+}
+.typo1 h1 {
+    font-size: 48px;
+    text-align: left;
+    padding: 0% 30%;
+    margin-left: -30%;
+}
+.typo1 h2 {
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-right: 500%;
+}
+.typo2 {
+    display: flex;
+}
+.typo2 h1 {
+    font-weight: normal;
+    font-size: 36px;
+    text-align: left;
+    padding: 0% 30%;
+    margin-left: -30%;
+}
+.typo2 h2 {
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-right: 500%;
+    transition: color 0.3s;
+}
+
+/* .typo2 h2:hover {
+    color: red;
+} */
+.typo3 {
+    display: flex;
+}
+.typo3 p {
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 0% 30%;
+    margin-left: -30%;
+}
+.typo3 h2 {
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-right: 500%;
+}
+.button1 h1 {
+    color: red;
+    animation-name: animatie;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding: 10%;
+}
+@keyframes animatie {
+    from {
+        color:red;
+    }
+    to {
+        color: yellow;
+    }
+    
+}
+/* .button1 h1:hover {
+    color:#32a0c4;
+
+} */
+.logo1 img {
+    width: 10%;
+    margin-left: 5%;
+}
+
