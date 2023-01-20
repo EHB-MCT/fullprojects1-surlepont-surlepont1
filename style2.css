@@ -98,12 +98,12 @@ body {
     border-radius: 5px;
     font-weight: lighter;
     text-decoration: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     margin-left: 5%;
 }
 .button1 a.button:hover {
     background-color: #f47777;
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 }
 .logo1 img {
     width: 10%;
