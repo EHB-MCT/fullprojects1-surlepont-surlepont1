@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap");
+
+body {
+	font-family: "Fredoka", sans-serif;
+	background-image: url(images/testsvg.svg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100%;
+}
+
+.logo-green {
+
+    display:block;
+    width: 0%;
+    align-self: center;
+ 
+}
+
+
+
+.social-facebook{
+  
+    width: 10%;
+}
+
+.social-instagram{
+
+    width: 10%;
+}
+
+.social-google{
+   
+    width: 10%;
+}
+
+.social-mail{
+    order: 4;
+    width: 10%;
+}
+
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer h1 {
+	color: white;
+	font-weight: 20px;
+	text-align: center;
+}
+
+.wrapper img{
+    margin-top: 12%;
+}
+
+
+.footer {
+	
+	word-spacing: 50px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0px;
+}
+
+.background {
+	width: 100%;
+	margin-right: 100px;
+}
+
+@media (min-width: 768px) {
+	
+
+	.footer a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.footer {
+		
+		width: 100%;
+		word-spacing: 50px;
+		text-align: center;
+		font-size: 0px;
+	}
+
+	.logo-green {
+		display: unset;
+		text-align: left;
+		width: 200px;
+        
+	}
+
+    .wrapper img{
+            margin-top: 8%;  
+    }
+
+}
+
+@media (min-width: 1240px) {
+	
+
+
+	.wrapper img {
+		margin-top: 9%;
+		
+	}
+
+    .social-facebook{
+        width: 5%;
+        
+    }
+
+    .social-instagram{
+        width: 5%;
+        
+    }
+
+    .social-google{
+        width: 5%;
+        
+    }
+
+    .social-mail{
+        width: 5%;
+       
+    }
+
+
+
+
+
+    .logo-green{
+        width: 15%;
+    }
+
+	.footer a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.footer h1 {
+		color: white;
+		font-weight: 10px;
+		text-align: center;
+		word-spacing: 10px;
+	}
+
+	.footer {
+		width: 100%;
+		word-spacing: 80px;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 20px;
+	}
+
+	
+
+
+}
