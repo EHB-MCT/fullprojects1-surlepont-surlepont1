@@ -558,10 +558,6 @@ figure {
 		position: relative;
 	}
 
-	.sky {
-		width: 102%;
-	}
-
 	header {
 		grid-column: 1/15;
 		display: grid;
@@ -920,7 +916,7 @@ figure {
 
 @media (min-width: 1240px) {
 	.sky {
-		width: 104%;
+		width: 105%;
 	}
 
 	header {
