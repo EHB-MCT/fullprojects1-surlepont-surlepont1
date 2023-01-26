@@ -899,6 +899,7 @@ figure {
 	.arrowleft,
 	.arrowright {
 		color: white;
+		font-size: 30px;
 	}
 
 	.slideshow p {
@@ -911,6 +912,44 @@ figure {
 		width: 80%;
 		grid-column: 2/4;
 		grid-row: 8;
+	}
+
+	.green-logo-1 {
+		width: 100%;
+		grid-column: 2/3;
+		grid-row: 10;
+	}
+
+	.google-maps {
+		width: 20%;
+		grid-column: 10;
+		grid-row: 10;
+		align-self: end;
+		justify-self: center;
+	}
+
+	.facebook {
+		width: 15%;
+		grid-column: 11;
+		grid-row: 10;
+		align-self: end;
+		justify-self: center;
+	}
+
+	.insta {
+		width: 30%;
+		grid-column: 12;
+		grid-row: 10;
+		align-self: end;
+		justify-self: center;
+	}
+
+	.mail {
+		width: 30%;
+		grid-column: 13;
+		grid-row: 10;
+		align-self: end;
+		justify-self: center;
 	}
 }
 
@@ -972,7 +1011,7 @@ figure {
 	}
 
 	.wrapper2 {
-		width: 102%;
+		width: 105%;
 		grid-template-rows: repeat(22, minmax(25px, auto));
 	}
 
@@ -1044,7 +1083,7 @@ figure {
 	}
 
 	.wrapper3 {
-		width: 102%;
+		width: 105%;
 		grid-template-columns: repeat(25, 1fr);
 		grid-template-rows: repeat(13, minmax(25px, auto));
 	}
@@ -1167,7 +1206,7 @@ figure {
 	}
 
 	.wrapper4 {
-		width: 102%;
+		width: 105%;
 		grid-template-rows: repeat(11, minmax(25px, auto));
 	}
 
@@ -1235,7 +1274,7 @@ figure {
 	.arrowleft,
 	.arrowright {
 		color: white;
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	.slideshow p {
