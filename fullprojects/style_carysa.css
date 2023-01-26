@@ -560,6 +560,7 @@ figure {
 
 	.logo {
 		width: 90%;
+		justify-self: center;
 	}
 
 	header {
@@ -984,6 +985,7 @@ figure {
 		width: 80%;
 		grid-column: 7/9;
 		margin-top: 10px;
+		justify-self: center;
 	}
 
 	.wrapper1 {
