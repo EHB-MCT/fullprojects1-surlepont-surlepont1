@@ -962,7 +962,6 @@ figure {
 }
 
 @media (min-width: 1240px) {
-	
 	header {
 		top: 20px;
 	}
@@ -1247,7 +1246,7 @@ figure {
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
-		margin-left:10px;
+		margin-left: 10px;
 		grid-row: 3;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
