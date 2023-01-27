@@ -83,10 +83,12 @@ header nav ul li {
 	background-color: green;
 	transition-duration: 0.25s;
 }
+
 .menu__btn > span::before {
 	content: "";
 	top: -8px;
 }
+
 .menu__btn > span::after {
 	content: "";
 	top: 8px;
