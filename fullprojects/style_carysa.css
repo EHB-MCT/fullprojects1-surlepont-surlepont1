@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font-family: "Fredoka", sans-serif;
+	overflow-x: hidden;
 }
 
 .wrapper1 {
@@ -341,7 +342,7 @@ header nav ul li {
 }
 
 .blue-background {
-	width: 101%;
+	width: 102%;
 	grid-column: 1/15;
 	grid-row: 1/10;
 }
@@ -845,7 +846,7 @@ figure {
 
 	.blue-background2 {
 		display: block;
-		width: 101%;
+		width: 102%;
 		grid-column: 1/15;
 		grid-row: 1/10;
 	}
@@ -960,7 +961,7 @@ figure {
 
 @media (min-width: 1240px) {
 	.sky {
-		width: 105%;
+		width: 107%;
 	}
 
 	header {
