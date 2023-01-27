@@ -79,7 +79,7 @@ header nav ul li {
 }
 
 .wrapper2 {
-	width: 100%;
+	width: 102%;
 	display: grid;
 	grid-template-columns: repeat(14, 1fr);
 	grid-template-rows: repeat(14, minmax(25px, auto));
@@ -193,7 +193,7 @@ header nav ul li {
 }
 
 .wrapper3 {
-	width: 100%;
+	width: 102%;
 	display: grid;
 	grid-template-columns: repeat(15, 1fr);
 	grid-template-rows: repeat(15, minmax(25px, auto));
@@ -837,6 +837,7 @@ figure {
 	}
 
 	.wrapper4 {
+		width: 100%;
 		grid-template-rows: repeat(11, minmax(25px, auto));
 	}
 
@@ -873,7 +874,8 @@ figure {
 
 	.slideshow {
 		position: absolute;
-		grid-column: 1/15;
+		grid-column: 2/16;
+		margin-left: -20px;
 		grid-row: 4;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -960,10 +962,7 @@ figure {
 }
 
 @media (min-width: 1240px) {
-	.sky {
-		width: 107%;
-	}
-
+	
 	header {
 		top: 20px;
 	}
@@ -990,6 +989,7 @@ figure {
 	}
 
 	.wrapper1 {
+		width: 100%;
 		grid-template-rows: repeat(28, minmax(25px, auto));
 	}
 
@@ -1018,7 +1018,6 @@ figure {
 	}
 
 	.wrapper2 {
-		width: 105%;
 		grid-template-rows: repeat(22, minmax(25px, auto));
 	}
 
@@ -1090,7 +1089,6 @@ figure {
 	}
 
 	.wrapper3 {
-		width: 105%;
 		grid-template-columns: repeat(25, 1fr);
 		grid-template-rows: repeat(13, minmax(25px, auto));
 	}
@@ -1213,7 +1211,7 @@ figure {
 	}
 
 	.wrapper4 {
-		width: 105%;
+		width: 100%;
 		grid-template-rows: repeat(11, minmax(25px, auto));
 	}
 
@@ -1249,6 +1247,7 @@ figure {
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
+		margin-left:10px;
 		grid-row: 3;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
