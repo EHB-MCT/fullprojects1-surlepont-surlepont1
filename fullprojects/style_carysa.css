@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font-family: "Fredoka", sans-serif;
+	overflow-x: hidden;
 }
 
 .wrapper1 {
@@ -78,7 +79,7 @@ header nav ul li {
 }
 
 .wrapper2 {
-	width: 100%;
+	width: 102%;
 	display: grid;
 	grid-template-columns: repeat(14, 1fr);
 	grid-template-rows: repeat(14, minmax(25px, auto));
@@ -192,7 +193,7 @@ header nav ul li {
 }
 
 .wrapper3 {
-	width: 100%;
+	width: 102%;
 	display: grid;
 	grid-template-columns: repeat(15, 1fr);
 	grid-template-rows: repeat(15, minmax(25px, auto));
@@ -341,7 +342,7 @@ header nav ul li {
 }
 
 .blue-background {
-	width: 101%;
+	width: 102%;
 	grid-column: 1/15;
 	grid-row: 1/10;
 }
@@ -558,6 +559,11 @@ figure {
 		position: relative;
 	}
 
+	.logo {
+		width: 90%;
+		justify-self: center;
+	}
+
 	header {
 		grid-column: 1/15;
 		display: grid;
@@ -621,10 +627,10 @@ figure {
 	}
 
 	.pink-line-home {
-		grid-column: 5/9;
+		grid-column: 4/9;
 		grid-row: 10;
 		margin-top: -3px;
-		margin-left: 30px;
+		margin-left: 60px;
 	}
 
 	.wrapper2 {
@@ -831,6 +837,7 @@ figure {
 	}
 
 	.wrapper4 {
+		width: 100%;
 		grid-template-rows: repeat(11, minmax(25px, auto));
 	}
 
@@ -840,7 +847,7 @@ figure {
 
 	.blue-background2 {
 		display: block;
-		width: 101%;
+		width: 102%;
 		grid-column: 1/15;
 		grid-row: 1/10;
 	}
@@ -867,7 +874,8 @@ figure {
 
 	.slideshow {
 		position: absolute;
-		grid-column: 1/15;
+		grid-column: 2/16;
+		margin-left: -20px;
 		grid-row: 4;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -954,10 +962,7 @@ figure {
 }
 
 @media (min-width: 1240px) {
-	.sky {
-		width: 105%;
-	}
-
+	
 	header {
 		top: 20px;
 	}
@@ -977,12 +982,14 @@ figure {
 	}
 
 	.logo {
-		width: 90%;
+		width: 80%;
 		grid-column: 7/9;
 		margin-top: 10px;
+		justify-self: center;
 	}
 
 	.wrapper1 {
+		width: 100%;
 		grid-template-rows: repeat(28, minmax(25px, auto));
 	}
 
@@ -1011,7 +1018,6 @@ figure {
 	}
 
 	.wrapper2 {
-		width: 105%;
 		grid-template-rows: repeat(22, minmax(25px, auto));
 	}
 
@@ -1083,7 +1089,6 @@ figure {
 	}
 
 	.wrapper3 {
-		width: 105%;
 		grid-template-columns: repeat(25, 1fr);
 		grid-template-rows: repeat(13, minmax(25px, auto));
 	}
@@ -1206,7 +1211,7 @@ figure {
 	}
 
 	.wrapper4 {
-		width: 105%;
+		width: 100%;
 		grid-template-rows: repeat(11, minmax(25px, auto));
 	}
 
@@ -1242,6 +1247,7 @@ figure {
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
+		margin-left:10px;
 		grid-row: 3;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
