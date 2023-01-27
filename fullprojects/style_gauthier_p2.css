@@ -874,7 +874,7 @@ figure {
 
 	.blue_heart {
 		z-index: 6;
-		width: 100%;
+		width: 60%;
 		grid-column: 11/14;
 		grid-row: 7;
 		position: absolute;
@@ -886,9 +886,9 @@ figure {
 	}
 
 	.yellow_line {
-		size: 250%;
-		margin-left: 115%;
-		margin-top: 55%;
+		width: 55%;
+		margin-left: 225%;
+		margin-top: 30%;
 	}
 
 	.h3_2 {
@@ -897,8 +897,8 @@ figure {
 	}
 
 	.blue_line {
-		margin-top: 1%;
-		width: 90%;
+		margin-top: -5%;
+		width: 40%;
 		margin-left: 10%;
 	}
 
