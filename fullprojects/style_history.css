@@ -5,6 +5,10 @@ body {
 	font-family: "Fredoka", sans-serif;
 }
 
+.one{
+  margin-left: 12%;
+}
+
 .wrapper1 {
 	width: 100%;
 	display: grid;
@@ -42,7 +46,7 @@ header nav ul li {
 .wrapper1 h1 {
 	position: absolute;
 	z-index: 2;
-	color: #333;
+	color: white;
 	grid-column: 2/14;
 	grid-row: 4;
 	font-size: 22px;
@@ -61,7 +65,7 @@ header nav ul li {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(14, 1fr);
-	grid-template-rows: repeat(8, minmax(25px, auto));
+	grid-template-rows: repeat(6, minmax(25px, auto));
 	position: relative;
 }
 
@@ -111,45 +115,56 @@ header nav ul li {
 	text-align: center;
 }
 
-.red_heart {
-	z-index: 6;
-	width: 100%;
-	grid-column: 2/5;
-	grid-row: 3;
-	position: absolute;
-}
-
-.blue_heart {
+.red_wind {
 	z-index: 6;
 	width: 75%;
+    margin-left: 10%;
+	grid-column: 13/15;
+    margin-top: -30%;
+	grid-row: 1;
+	position: absolute;
+}
+
+.blue_water {
+	z-index: 6;
+	width: 100%;
 	grid-column: 1/3;
-	grid-row: 8;
+	grid-row: 2;
 	position: absolute;
 }
 
-.yellow_heart {
+.yellow_star {
 	z-index: 6;
 	width: 100%;
-	grid-column: 12/14;
-	grid-row: 7;
-	position: absolute;
-}
-
-.green_heart {
-	z-index: 6;
-	width: 100%;
-	grid-column: 8/10;
+    margin-top: 10%;
+	grid-column: 2/5;
 	grid-row: 5;
 	position: absolute;
 }
 
-.purple_heart {
+.wrapper3 p{
+    margin-top: -1%;
+    grid-row: 2;
+    grid-column: 5/12;
+}
+
+.pink_grass {
 	z-index: 6;
 	width: 100%;
-	grid-column: 12/14;
-	grid-row: 4;
+	grid-column: 2/5;
+    margin-top: -150%;
+    margin-left: -30%;
+	grid-row: 1;
 	position: absolute;
-	margin-top: -100%;
+}
+
+.pink_cloud {
+	z-index: 6;
+	width: 100%;
+	grid-column: 10/14;
+	grid-row: 6;
+	position: absolute;
+    margin-left: 30%;
 }
 
 .h2_1 {
@@ -186,10 +201,10 @@ h4 {
 .TheHistory {
 	position: absolute;
 	z-index: 1;
-	width: 115%;
-	grid-column: 2/6;
+	width: 100%;
+	grid-column: 3/7;
 	margin-left: 10%;
-	margin-top: -110%;
+	margin-top: 110%;
 }
 
 .History_1 {
@@ -200,8 +215,8 @@ h4 {
 
 .purple_arrow {
 	grid-column: 10/13;
-	width: 25%;
-	margin-top: -150%;
+	width: 45%;
+	margin-top: 1%;
 }
 
 .home-p1 {
@@ -219,21 +234,7 @@ h4 {
 	grid-row: 3;
 }
 
-.whoarewe-yellow {
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	grid-column: 12/14;
-	grid-row: 4;
-}
 
-.pink-blob {
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	grid-column: 3/14;
-	grid-row: 5;
-}
 
 .whoarewe-redheart {
 	position: absolute;
@@ -282,7 +283,7 @@ h4 {
 .red_line {
 	grid-column: 1/15;
 	grid-row: 2;
-	margin-top: 25%;
+	margin-top: 30%;
 }
 
 .Purple_line {
@@ -291,73 +292,7 @@ h4 {
 	margin-top: -20%;
 }
 
-.yellow_line {
-	margin-top: 70%;
-	width: 125%;
-	grid-column: 1/3;
-	grid-row: 1;
-}
 
-.blue_line {
-	width: 100%;
-	grid-column: 7/12;
-	grid-row: 2;
-	margin-top: 2%;
-}
-
-.interview_1 {
-	width: 500%;
-}
-
-.interview_2 {
-	width: 500%;
-}
-
-.interview_3 {
-	width: 500%;
-}
-
-.plan1 {
-	width: 250%;
-	grid-column: 2/4;
-	grid-row: 3;
-}
-
-.plan2 {
-	width: 125%;
-	grid-row: 3;
-	grid-column: 9/13;
-}
-
-.plan3 {
-	padding-top: 10%;
-	margin-top: 10%;
-	width: 250%;
-	grid-row: 4;
-	grid-column: 2/4;
-}
-
-.plan4 {
-	margin-top: 10%;
-	padding-bottom: 8%;
-	width: 125%;
-	grid-row: 4;
-	grid-column: 9/13;
-}
-
-.plan5 {
-	margin-top: 20%;
-	width: 250%;
-	grid-row: 5;
-	grid-column: 2/4;
-}
-
-.plan6 {
-	margin-top: 10%;
-	width: 125%;
-	grid-row: 5;
-	grid-column: 9/13;
-}
 
 .logo-green {
 	display: block;
@@ -366,7 +301,7 @@ h4 {
 }
 
 .social-facebook {
-	width: 10%;
+	width: 5%;
 }
 
 .social-instagram {
@@ -374,7 +309,7 @@ h4 {
 }
 
 .social-google {
-	width: 10%;
+	width: 7%;
 }
 
 .social-mail {
@@ -413,7 +348,7 @@ h4 {
 .slideshow {
 	position: absolute;
 	grid-column: 1/15;
-	margin-top: -20%;
+	margin-top: -10%;
 	display: grid;
 	grid-template-columns: 0.5fr 1fr 0.5fr;
 	justify-items: center;
@@ -443,7 +378,7 @@ figure {
 
 .arrowleft,
 .arrowright {
-	color: #32A0C5;
+	color: #32a0c5;
 }
 
 .slideshow p {
@@ -452,34 +387,45 @@ figure {
 	width: 100%;
 }
 
-@media (min-width: 768px) {
-
-.een{
-	margin-top: 10%;
+.schilderij {
+	width: 100%;
+    grid-column: 2/14;
 }
+
+.video_story{
+    margin-top: 15%;
+    grid-column: 8/8;
+}
+
+@media (min-width: 768px) {
+	.one {
+		margin-top: 10%;
+        font-size: 100px;
+        
+	}
 	.slideshow {
 		position: absolute;
 		grid-column: 1/15;
-		margin-top: 5%;
+		margin-top: 32%;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 		justify-items: center;
 		align-items: center;
 	}
-	
+
 	.logoslideshow {
 		grid-column: 2/3;
 		display: none;
 	}
-	
+
 	.logo1 {
 		display: block;
 	}
-	
+
 	.slideshow img {
 		width: 100%;
 	}
-	
+
 	figure {
 		margin: 0;
 		padding: 0;
@@ -487,18 +433,17 @@ figure {
 		font-size: 100%;
 		display: block;
 	}
-	
+
 	.arrowleft,
 	.arrowright {
-		color: #32A0C5;
+		color: #32a0c5;
 	}
-	
+
 	.slideshow p {
 		font-weight: 400;
 		font-size: 15px;
 		width: 100%;
 	}
-
 
 	.wrapper1 {
 		width: 100%;
@@ -508,10 +453,9 @@ figure {
 		position: relative;
 	}
 
-	.red_line{
+	.red_line {
 		grid-column: 1/15;
-		grid-row: 2;
-		margin-top: 35%;
+		grid-row: 1;
 	}
 
 	header {
@@ -564,21 +508,22 @@ figure {
 	}
 
 	.wrapper1 h1 {
-		font-size: 34;
+		font-size: 30pt;
 	}
 
 	.TheHistory {
 		position: absolute;
 		z-index: 1;
-		width: 250%;
-		grid-column: 2/2;
-		margin-top: -50%;
+		width: 185%;
+        margin-left: 75%;
+		grid-column: 2/4;
+        margin-top: 5%;
+		grid-row: 8;
 	}
 
 	.purple_arrow {
-		margin-top: -25%;
-		grid-column: 7/9;
-		width: 45%;
+		grid-column: 1/12;
+		width: 100%;
 	}
 
 	.wrapper3 .h2_1 {
@@ -597,6 +542,10 @@ figure {
 		grid-column: 2/5;
 		width: 150%;
 	}
+
+    .red_line{
+        margin-top: 65%;
+    }
 
 	.interview_1 {
 		width: 400%;
@@ -629,47 +578,57 @@ figure {
 		margin-top: 1%;
 	}
 
-	.red_heart {
-		z-index: 6;
-		width: 100%;
-		grid-column: 11/15;
-		grid-row: 1;
-		position: absolute;
-	}
-
-	.purple_heart {
-		z-index: 6;
-		width: 50%;
-		margin-top: 20%;
-		grid-column: 12/15;
-		grid-row: 4;
-		position: absolute;
-	}
-
-	.green_heart {
-		z-index: 6;
-		width: 75%;
-		grid-column: 11/14;
-		grid-row: 5;
-		margin-top: 250%;
-		position: absolute;
-	}
-
-	.yellow_heart {
-		z-index: 6;
-		width: 100%;
-		grid-column: 2/5;
-		grid-row: 6;
-		position: absolute;
-	}
-
-	.blue_heart {
-		z-index: 6;
-		width: 50%;
-		grid-column: 13/15;
-		grid-row: 7;
-		position: absolute;
-	}
+	.red_wind {
+        z-index: 6;
+        width: 75%;
+        margin-left: 10%;
+        grid-column: 13/15;
+        margin-top: -30%;
+        grid-row: 1;
+        position: absolute;
+    }
+    
+    .blue_water {
+        z-index: 6;
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 2;
+        position: absolute;
+    }
+    
+    .yellow_star {
+        z-index: 6;
+        width: 100%;
+        grid-column: 2/5;
+        grid-row: 3;
+        position: absolute;
+    }
+    
+    .wrapper3 p{
+        margin-top: -1%;
+        grid-row: 2;
+        font-size: 25px;
+        grid-column: 5/12;
+    }
+    
+    .pink_grass {
+        z-index: 6;
+        width: 100%;
+        grid-column: 2/5;
+        margin-top: -190%;
+        margin-left: -30%;
+        grid-row: 1;
+        position: absolute;
+    }
+    
+    .pink_cloud {
+        z-index: 6;
+        width: 100%;
+        grid-column: 10/14;
+        grid-row: 5;
+        position: absolute;
+        margin-left: 30%;
+    }
 
 	.h3_1 {
 		font-size: 150%;
@@ -679,7 +638,7 @@ figure {
 	}
 
 	.yellow_line {
-	width: 	90%;
+		width: 90%;
 		margin-left: 165%;
 		margin-top: 45%;
 	}
@@ -717,15 +676,31 @@ figure {
 		margin-top: 8%;
 	}
 
+	.schilderij {
+        margin-top: -30%;
+		grid-column: 2/14;
+	}
 
-	
+
+    .video_story{
+        grid-row: 3;
+        grid-column: 5/14;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1240px) {
-	
-	.een{
+	.one {
 		padding-top: 5%;
-		
 	}
 
 	header {
@@ -756,15 +731,15 @@ figure {
 	.TheHistory {
 		position: absolute;
 		z-index: 1;
-		width: 300%;
-		grid-column: 2/2;
+		width: 400%;
+		grid-column: 3/3;
 		grid-row: 1;
-		margin-top: 100%;
+		margin-top: 350%;
 	}
 
 	.wrapper1 h1 {
 		margin-top: 10%;
-		font-size: 42px;
+		font-size: 55pt;
 	}
 
 	.home {
@@ -803,6 +778,10 @@ figure {
 		font-size: 42px;
 		grid-column: 2/6;
 	}
+
+    .red_line{
+        margin-top: 75%;
+    }
 
 	.Purple_line {
 		margin-left: 10%;
@@ -987,11 +966,10 @@ figure {
 	}
 
 	.slideshow {
-
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
-		margin-top: 15%;
+		margin-top: 45%;
 		grid-row: 9;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -1022,7 +1000,7 @@ figure {
 
 	.arrowleft,
 	.arrowright {
-		color: #32A0C5;;
+		color: #32a0c5;
 		font-size: 40px;
 	}
 
@@ -1039,19 +1017,19 @@ figure {
 		float: right;
 		margin-right: 95px;
 	}
+
+	.schilderij {
+		grid-column: 2/14;
+	}
 }
 
-
 @media (min-width: 1280px) {
-	
-	.logo{
+	.logo {
 		width: 60%;
 	}
 
-
-	.een{
+	.one {
 		padding-top: 5%;
-		
 	}
 
 	header {
@@ -1083,11 +1061,11 @@ figure {
 	.TheHistory {
 		position: absolute;
 		z-index: 1;
-		width: 340%;
-		grid-column: 4/4;
+		width: 430%;
+		grid-column: 4/5;
 		margin-left: 50%;
-		grid-row: 1;
-		margin-top: 140%;
+		grid-row: 9;
+        margin-top: 130%;
 	}
 
 	.wrapper1 h1 {
@@ -1099,12 +1077,12 @@ figure {
 
 	.home {
 		margin-top: 100%;
-		color: white;
+		color: #333;
 	}
 
 	.purple_arrow {
-		margin-top: 55%;
-		grid-column: 6/8;
+		margin-top: 15%;
+		grid-column: 10/13;
 		width: 35%;
 	}
 
@@ -1318,7 +1296,6 @@ figure {
 	}
 
 	.slideshow {
-
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
@@ -1353,7 +1330,7 @@ figure {
 
 	.arrowleft,
 	.arrowright {
-		color: #32A0C5;;
+		color: #32a0c5;
 		font-size: 40px;
 	}
 
@@ -1369,15 +1346,17 @@ figure {
 		padding-left: 10px;
 		float: right;
 		margin-right: 95px;
-		
 	}
 
-	.wrapper2{
+	.wrapper2 {
 		margin-top: 30%;
 	}
+
+	.schilderij {   
+        width: 100%;
+		grid-column: 2/14;
+	}
 }
-
-
 
 /* https://alvarotrigo.com/blog/hamburger-menu-css/ -> 6. Snappy Sliding Hamburger Menu*/
 
@@ -1459,15 +1438,11 @@ figure {
 	display: inline;
 }
 
-
-
-
 @media (min-width: 768px) {
-
 	.logo {
 		width: 90%;
 		justify-self: center;
-		}
+	}
 	header {
 		grid-column: 1/15;
 		display: grid;
@@ -1475,60 +1450,57 @@ figure {
 		margin: 10px 0;
 		position: absolute;
 		width: 100%;
-		}
-		header nav {
+	}
+	header nav {
 		z-index: 2;
 		grid-column: 2/14;
 		align-self: center;
 		width: 100%;
-		}
-		header nav ul {
+	}
+	header nav ul {
 		margin: 0;
 		padding: 0;
 		float: left;
-		}
-		header nav ul li {
+	}
+	header nav ul li {
 		display: inline;
 		padding-right: 10px;
-		}
-		header nav ul li a {
+	}
+	header nav ul li a {
 		color: #333;
 		text-decoration: none;
 		font-size: 15px;
 		font-weight: 500;
-		}
-		.language {
+	}
+	.language {
 		padding-left: 10px;
 		float: right;
 		margin-right: -55px;
-		}
-		.hamburger-menu {
-			display: none;
-		}
-
+	}
+	.hamburger-menu {
+		display: none;
+	}
 }
 
-@media (min-width: 1240px){	
+@media (min-width: 1240px) {
 	header {
-	 top: 20px;
+		top: 20px;
 	}
 	header nav ul li {
-	padding-right: 20px;
+		padding-right: 20px;
 	}
 	header nav ul li a {
-	font-size: 20px;
+		font-size: 20px;
 	}
 	.language {
-	padding-left: 10px;
-	float: right;
-	margin-right: -95px;
+		padding-left: 10px;
+		float: right;
+		margin-right: -95px;
 	}
 	.logo {
-	width: 80%;
-	grid-column: 7/9;
-	margin-top: 10px;
-	justify-self: center;
+		width: 80%;
+		grid-column: 7/9;
+		margin-top: 10px;
+		justify-self: center;
 	}
-
-
-	}
+}
