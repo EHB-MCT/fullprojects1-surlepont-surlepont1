@@ -24,7 +24,7 @@ header {
 .sky {
 	grid-column: 1/15;
 	grid-row: 1;
-	width: 102%;
+	width: 100%;
 	position: absolute;
 }
 
@@ -79,7 +79,7 @@ header nav ul li {
 }
 
 .wrapper2 {
-	width: 102%;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(14, 1fr);
 	grid-template-rows: repeat(14, minmax(25px, auto));
@@ -193,7 +193,7 @@ header nav ul li {
 }
 
 .wrapper3 {
-	width: 102%;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(15, 1fr);
 	grid-template-rows: repeat(15, minmax(25px, auto));
@@ -342,7 +342,7 @@ header nav ul li {
 }
 
 .blue-background {
-	width: 102%;
+	width: 100%;
 	grid-column: 1/15;
 	grid-row: 1/10;
 }
@@ -851,7 +851,7 @@ figure {
 
 	.blue-background2 {
 		display: block;
-		width: 102%;
+		width: 100%;
 		grid-column: 1/15;
 		grid-row: 1/10;
 	}
@@ -1224,7 +1224,7 @@ figure {
 
 	.blue-background2 {
 		display: block;
-		width: 102%;
+		width: 100%;
 		grid-column: 1/15;
 		grid-row: 1/10;
 	}
@@ -1530,8 +1530,51 @@ figure {
 		grid-row: 11;
 	}
 
+	.green-crown {
+		width: 70%;
+		grid-column: 3/6;
+		grid-row: 2;
+		margin-top: -40px;
+		margin-left: 40px;
+	}
+
+	.yellow-star {
+		width: 75%;
+		grid-column: 21/23;
+		grid-row: 2;
+		margin-left: 20px;
+	}
+
+	.pink-cloud {
+		width: 75%;
+		grid-column: 12/15;
+		grid-row: 5;
+		margin-top: -20px;
+	}
+
+	.red-wind {
+		width: 70%;
+		grid-column: 10/12;
+		grid-row: 9;
+		margin-left: -10px;
+		margin-top: -15px;
+	}
+
+	.pink-grass {
+		width: 90%;
+		grid-column: 2/4;
+		grid-row: 10;
+		margin-top: 50px;
+	}
+
+	.blue-water {
+		width: 75%;
+		grid-column: 22/25;
+		grid-row: 10;
+	}
+
 	.green-flower {
-		width: 105%;
+		width: 85%;
 		grid-column: 21/23;
 		grid-row: 17;
 	}
@@ -1552,7 +1595,7 @@ figure {
 	.blue-background3 {
 		display: block;
 		display: block;
-		width: 102%;
+		width: 100%;
 		grid-column: 1/15;
 		grid-row: 1/10;
 	}
@@ -1585,7 +1628,7 @@ figure {
 	}
 
 	.red-smiley-amis {
-		width: 70%;
+		width: 50%;
 		grid-column: 2/4;
 		grid-row: 7;
 	}
