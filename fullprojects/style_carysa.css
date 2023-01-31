@@ -3,7 +3,6 @@
 body {
 	margin: 0;
 	font-family: "Fredoka", sans-serif;
-	overflow-x: hidden;
 }
 
 .wrapper1 {
@@ -997,6 +996,7 @@ figure {
 
 	.wrapper1 {
 		width: 100%;
+		grid-template-columns: repeat(14, 1fr);
 		grid-template-rows: repeat(28, minmax(25px, auto));
 	}
 
@@ -1007,6 +1007,7 @@ figure {
 	}
 
 	.yellow-line-home {
+		width: 95%;
 		grid-column: 7/13;
 		grid-row: 12;
 		margin-top: 5px;
@@ -1258,7 +1259,6 @@ figure {
 		width: 100%;
 		position: absolute;
 		grid-column: 1/15;
-		margin-left: 10px;
 		grid-row: 3;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -1423,14 +1423,14 @@ figure {
 		font-size: 23px;
 		grid-column: 9/13;
 		grid-row: 7;
-		margin-top: -30px;
+		margin-top: -20px;
 	}
 
 	.li-2 {
 		font-size: 23px;
 		grid-column: 9/13;
 		grid-row: 7;
-		margin-top: 45px;
+		margin-top: 60px;
 	}
 
 	.li-3 {
