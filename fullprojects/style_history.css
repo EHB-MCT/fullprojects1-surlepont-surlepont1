@@ -70,14 +70,39 @@ header nav ul li {
 	grid-row: 7;
 }
 
+.year_1{
+	grid-row: 1;
+	position: absolute;
+	margin-top: 15%;
+	grid-column: 6/10;
+}
+
+
 .story_1{
 	grid-row: 2;
 	grid-column: 2/14;
 }
 
+.year_2{
+	grid-row: 3;
+	position: absolute;
+	margin-top: 15%;
+	grid-column: 6/10;
+}
+
+
+
 .story_2{
 	grid-row: 4;
 	grid-column: 2/14;
+}
+
+
+.year_3{
+	grid-row: 5;
+	position: absolute;
+	margin-top: 15%;
+	grid-column: 6/10;
 }
 
 .story_3{
@@ -686,6 +711,49 @@ figure {
         grid-row: 3;
         grid-column: 5/14;
     }
+
+	.year_1{
+		width: 50%;
+		grid-row: 1;
+		position: absolute;
+		margin-top: 145%;
+		grid-column: 7/11;
+	}
+	
+	
+	.story_1{
+		margin-top: 50%;
+		grid-row: 2;
+		grid-column: 2/14;
+	}
+	
+	.year_2{
+		grid-row: 3;
+		position: absolute;
+		width: 50%;
+		margin-top: -1%;
+		grid-column: 7/11;
+	}
+	
+	
+	
+	.story_2{
+		grid-row: 4;
+		grid-column: 2/14;
+	}
+	
+	
+	.year_3{
+		grid-row: 5;
+		position: absolute;
+		margin-top: 15%;
+		grid-column: 6/10;
+	}
+	
+	.story_3{
+		grid-row: 6;
+		grid-column: 2/14;
+	}
 }
 
 
