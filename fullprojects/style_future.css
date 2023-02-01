@@ -485,7 +485,7 @@ figure {
 	text-align: right;
 }
 
-.visualisatie {
+.visualisation {
 	width: 100%;
 	grid-column: 2/14;
 	grid-row: 5;
@@ -493,7 +493,7 @@ figure {
 	padding: 0;
 }
 
-.onderschrift {
+.caption {
 	font-weight: 400;
 	font-size: 8px;
 	grid-column: 2/14;
@@ -501,7 +501,7 @@ figure {
 	margin-top: -30px;
 }
 
-.krant {
+.paper {
 	font-weight: 400;
 	font-size: 12px;
 	grid-column: 2/14;
@@ -509,7 +509,7 @@ figure {
 	text-align: justify;
 }
 
-.krant a {
+.paper a {
 	color: #e6c959;
 	text-decoration: none;
 }
@@ -964,7 +964,7 @@ figure {
 		text-align: right;
 	}
 
-	.visualisatie {
+	.visualisation {
 		width: 100%;
 		grid-column: 2/14;
 		grid-row: 5;
@@ -972,7 +972,7 @@ figure {
 		padding: 0;
 	}
 
-	.onderschrift {
+	.caption {
 		font-weight: 400;
 		font-size: 10px;
 		grid-column: 2/14;
@@ -980,7 +980,7 @@ figure {
 		margin-top: -60px;
 	}
 
-	.krant {
+	.paper {
 		font-size: 15px;
 		grid-column: 2/14;
 		grid-row: 6;
@@ -988,7 +988,7 @@ figure {
 		margin-top: -20px;
 	}
 
-	.krant a {
+	.paper a {
 		color: #e6c959;
 		text-decoration: none;
 	}
@@ -1416,7 +1416,7 @@ figure {
 		margin-left: 10px;
 	}
 
-	.visualisatie {
+	.visualisation {
 		width: 100%;
 		grid-column: 2/14;
 		grid-row: 5;
@@ -1432,7 +1432,7 @@ figure {
 		margin-left: 10px;
 	}
 
-	.onderschrift {
+	.caption {
 		font-weight: 400;
 		font-size: 12px;
 		grid-column: 2/14;
@@ -1440,7 +1440,7 @@ figure {
 		margin-top: -100px;
 	}
 
-	.krant {
+	.paper {
 		font-size: 23px;
 		grid-column: 2/14;
 		grid-row: 6;
@@ -1727,7 +1727,7 @@ figure {
 		margin-left: -10px;
 	}
 
-	.visualisatie {
+	.visualisation {
 		width: 100%;
 		grid-column: 2/14;
 		grid-row: 6;
@@ -1743,7 +1743,7 @@ figure {
 		margin-left: 30px;
 	}
 
-	.onderschrift {
+	.caption {
 		font-weight: 400;
 		font-size: 12px;
 		grid-column: 2/14;
@@ -1751,7 +1751,7 @@ figure {
 		margin-top: -140px;
 	}
 
-	.krant {
+	.paper {
 		font-size: 23px;
 		grid-column: 2/14;
 		grid-row: 7;

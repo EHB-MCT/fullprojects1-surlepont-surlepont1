@@ -120,6 +120,18 @@ header nav ul li {
 	display: inline;
 }
 
+.wrapper2 {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: repeat(14, minmax(25px, auto));
+	position: relative;
+}
+
+.wrapper2 video {
+	grid-column: 2/15;
+}
+
 @media (min-width: 768px) {
 	.wrapper1 {
 		width: 100%;
@@ -177,6 +189,11 @@ header nav ul li {
 	.hamburger-menu {
 		display: none;
 	}
+
+	.wrapper2 {
+		grid-template-rows: repeat(15, minmax(25px, auto));
+	}
+
 }
 
 @media (min-width: 1240px) {
@@ -210,6 +227,10 @@ header nav ul li {
 		grid-template-columns: repeat(14, 1fr);
 		grid-template-rows: repeat(28, minmax(25px, auto));
 	}
+
+	.wrapper2 {
+		grid-template-rows: repeat(22, minmax(25px, auto));
+	}
 }
 
 @media (min-width: 1280px) {
@@ -220,5 +241,9 @@ header nav ul li {
 	.wrapper1 {
 		width: 100%;
 		grid-template-rows: repeat(40, minmax(25px, auto));
+	}
+
+	.wrapper2 {
+		grid-template-rows: repeat(28, minmax(25px, auto));
 	}
 }
