@@ -1076,6 +1076,55 @@ figure {
 		grid-row: 6;
 		grid-column: 2/14;
 	}
+
+
+
+
+
+
+	.arrow_red{
+		position: absolute;
+		margin-top: -1%;
+		margin-left: 5%;
+		width: 15%;
+	}
+	
+	.year1 {
+		margin-top: 1%;
+		grid-row: 4;	
+		margin-left: 40%;
+		width:25%;
+		margin-bottom: -2%;
+	}
+	
+	.arrow_blue{
+		position: absolute;
+		width: 15%;
+		margin-left: 65%;
+	}
+	
+	.year2 {
+		grid-row: 5;
+		margin-top: 1%;
+		margin-left: 40%;
+		width:25%;
+		margin-bottom: -2%;
+	}
+	
+	
+	.arrow_yellow{
+		position: absolute;
+		margin-left: 5%;
+		width: 15%;
+	}
+	
+	.year3 {
+		grid-row: 6;
+		margin-top: 1%;
+		margin-left: 40%;
+		width:25%;
+		margin-bottom: -2%;
+	}
 }
 
 @media (min-width: 1240px) {
